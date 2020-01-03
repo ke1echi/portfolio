@@ -3,33 +3,20 @@ import React from 'react';
 import './App.css';
 import Profile  from './components/Profile';
 import Projects from './components/Projects';
+import ApiFile from './ApiFile';
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      store: [],
-      project: [''],
+      store: ApiFile,
+      project: ApiFile,
       activeTag: 'All Projects'
     }
 
     this.controlTag = this.controlTag.bind(this);
     this.childDiv = React.createRef();
-  }
-
-  componentDidMount() {
-    fetch('https://sammy-portfolio-api.glitch.me/api/project')
-      .then(res => res.json())
-      .then(res => {
-        this.setState({
-          store: res.project,
-          project: res.project
-        })
-      });
-    setTimeout(() => {
-      this.childDiv.current.scrollIntoView({ behavior: 'smooth' });
-    }, 500);
   }
 
   controlTag(e){

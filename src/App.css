@@ -20,7 +20,7 @@ h1 {
 /* Profile Section Starts Here*/
 .App #profile {
   text-align: center;
-  width: 300px;
+  width: 400px;
   height: 100vh;
   position: fixed;
   background: #323435;
@@ -45,8 +45,8 @@ h1 {
 
 .App #profile main #profilePic img {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
 }
 
 .App #profile main #about p {
@@ -105,7 +105,7 @@ h1 {
 .App #projects {
   background: #1d1d1d;
   position: absolute;
-  left: 300px;
+  left: 400px;
   right: 0;
   color: #ececec;
 }
@@ -302,7 +302,6 @@ li.active {
   background: #25b2ba1a;
   color: #ffffff;
   border-radius: 2px;
-
 }
 
 
@@ -321,7 +320,7 @@ li.active {
   justify-content: center;
   align-items: center;
   background: #474848;
-  height: 100vh;
+  height: 50vh;
 }
 
 .App #projects #footer h2 {

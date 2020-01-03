@@ -16,6 +16,20 @@ const stacks = (stac) => {
 	return colors? colors: { name: stac, background: '#284748' };
 }
 
+let navbarButton = {
+	display: "flex",
+	justifyContent: "center",
+	alignItems: "center",
+	width: "40%",
+	height: "40px",
+	maxWidth: "180px",
+	fontSize: "16px",
+	textDecoration: "none",
+	background: "#25b2ba1a",
+	color: "#ffffff",
+	borderRadius: "2px",
+	margin: "5px"
+}
 const EachProject = (props) => {
 	let Descript;
 	let dateStr;
@@ -57,7 +71,10 @@ const Projects = (props) => {
 		<div id='projects' ref={props.scroll}>
 			<header>
 				<div className='contacts'>
-					<a href="mailto:ebusameric@gmail.com" className="icons">
+					<button id="all" className="active" onClick={props.control} style={navbarButton}>Projects</button>
+					<button id="frontend" onClick={props.control} style={navbarButton}>FrontEnd</button>
+					<button id="frontend" onClick={props.control} style={navbarButton}>FullStack</button>
+					{/* <a href="mailto:ebusameric@gmail.com" className="icons">
 						<i className="fa fa-envelope-square"></i>
 						<span>Email</span>
 					</a>
@@ -68,24 +85,23 @@ const Projects = (props) => {
 					<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sammychrise" className="icons">
 						<i className="fa fa-twitter"></i>
 						<span>Twitter</span>
-					</a>
+					</a> */}
 				{ 	// eslint-disable-next-line
-					<a target="_blank" rel="noopener noreferrer" href="#" className="icons">
-						<i className="fa fa-linkedin"></i>
-						<span>LinkedIn</span>
-					</a>
+					// <a target="_blank" rel="noopener noreferrer" href="#" className="icons">
+					// 	<i className="fa fa-linkedin"></i>
+					// 	<span>LinkedIn</span>
+					// </a>
 				}
 				</div>
 			</header>
 			<main>
 				<div id="list-header">
-					<p>The newest projects are selected from the top</p>
 					<nav>
 						<ul>
-							<li id="all" className="active" onClick={props.control}>All Projects</li>
-							<li id="frontend" onClick={props.control}>Front-end</li>
-							<li id="d3" onClick={props.control}>Data visualisation</li>
-							<li id="fullstack" onClick={props.control}>Full-stack</li>
+							{/* <li id="all" className="active" onClick={props.control}>All Projects</li> */}
+							{/* <li id="frontend" onClick={props.control}>Front-end</li> */}
+							{/* <li id="d3" onClick={props.control}>Data visualisation</li> */}
+							{/* <li id="fullstack" onClick={props.control}>Full-stack</li> */}
 						</ul>
 					</nav>
 				</div>

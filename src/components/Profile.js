@@ -5,12 +5,12 @@ const Profile = () => {
 		<div id='profile'>
 			<div id="minimize">
 				<header>
-					<h1>Hey I'm Samuel</h1>
+					<h1>Hey, welcome</h1>
 					<p style={{marginTop:'5px'}}>a Web developer</p>
 				</header>
 				<main>
 					<div id="profilePic">
-						<img src="https://avatars0.githubusercontent.com/u/29807328?s=400&u=4e49f08616b02550468c8939aa644982f0052732&v=4" alt=""/>
+						<img src="/Image/Desert.jpg" alt=""/>
 					</div>
 					<div id="about">
 						<p>A web developer who lives in Lagos, Nigeria. 
@@ -22,7 +22,7 @@ const Profile = () => {
 						<div id="skill">
 							<span style={{background: '#ca2b03'}}>HTML5</span>
 							<span style={{background: '#379ad6'}}>CSS3</span>
-							<span style={{background: '#cea11a'}}>JavaScript</span>
+							{/* <span style={{background: '#cea11a'}}>JavaScript</span>
 							<span style={{background: '#218e94'}}>React</span>
 							<span style={{background: '#f5824c'}}>D3</span>
 							<span style={{background: '#172c45'}}>jQuery</span>
@@ -30,15 +30,15 @@ const Profile = () => {
 							<span style={{background: '#b55f8c'}}>Sass</span>
 							<span style={{background: '#7649bb'}}>Redux</span>
 							<span style={{background: '#76ac64'}}>Node</span>
-							<span style={{background: '#f03c2e'}}>Git</span>
+							<span style={{background: '#f03c2e'}}>Git</span> */}
 						</div>
 					</div>
 				</main>
 				<footer>
-					<a href="mailto:ebusameric@gmail.com" className="icons">
+					{/* <a href="mailto:ebusameric@gmail.com" className="icons">
 						<i className="fa fa-envelope-square"></i>
 						<span>Email</span>
-					</a> 
+					</a>  */}
 					<a target="_blank" rel="noopener noreferrer" href="https://github.com/sammychris" className="icons">
 						<i className="fa fa-github"></i>
 						<span>Github</span>
