@@ -2,7 +2,7 @@
   "name": "my-portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sammychris.github.io/sammychris.github.io",
+  "homepage": "https://ke1echi.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",

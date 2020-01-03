@@ -13,7 +13,7 @@ const Profile = () => {
 						<img src="/Image/Desert.jpg" alt=""/>
 					</div>
 					<div id="about">
-						<p>A web developer who lives in Lagos, Nigeria. 
+						<p>A developer who lives in Lagos, Nigeria. 
 						I code every day and I'm always looking for an opportunity to design as well.</p>
 						<p>Right now I'm immersed in MERN Stack and also love learning new things.</p>
 					</div>
