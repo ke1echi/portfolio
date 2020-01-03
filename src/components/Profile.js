@@ -10,7 +10,7 @@ const Profile = () => {
 				</header>
 				<main>
 					<div id="profilePic">
-						<img src="/Image/Desert.jpg" alt=""/>
+						<img src="Image/Desert.jpg" alt=""/>
 					</div>
 					<div id="about">
 						<p>A developer who lives in Lagos, Nigeria. 
