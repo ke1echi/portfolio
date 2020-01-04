@@ -148,7 +148,7 @@ let project = [
       code_url: "https://github.com/ke1echi/responsive-web-design-projects/tree/master/Technical_Documentation_Page",
       demo_url: "https://codepen.io/kelechichinaka/full/GPNbGG",
       type: "frontend",
-      create_on: "August 2019",
+      create_on: "December 20, 2018",
       img_url:"Image/documentationPage.PNG"
     },
     {
@@ -158,7 +158,7 @@ let project = [
       code_url: "https://github.com/ke1echi/responsive-web-design-projects/tree/master/Tribute_Page",
       demo_url: "https://codepen.io/kelechichinaka/full/MbGLew",
       type: "frontend",
-      create_on: "August 2019",
+      create_on: "March 15, 2019",
       img_url:"Image/tributePageImage.PNG"
     },
 ];

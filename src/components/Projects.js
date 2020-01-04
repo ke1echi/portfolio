@@ -22,7 +22,7 @@ const EachProject = (props) => {
 
 	if (descripArr) {
 		Descript = descripArr.split('.').map( a => <p>{a}.</p>);
-		dateStr = props.project.create_on;
+		// dateStr = props.project.create_on;
 
 		Skills = props.project.skills.map((a, i) => <span style={{background: stacks(a).background, top: i * 30}}>{stacks(a).name}</span>)
 	}
@@ -34,6 +34,7 @@ const EachProject = (props) => {
 					<img src={props.project.img_url} alt="" />
 				</a>
 				<div className="project-info">
+					{/* <h1><span>{props.project.name}</span><span className="dates">{dateStr}</span></h1> */}
 					<h1><span>{props.project.name}</span><span className="dates">{dateStr}</span></h1>
 					<div className="text-btn">
 						<div className="text">{ Descript }</div>
@@ -79,10 +80,9 @@ const Projects = (props) => {
 			</main>
 			<footer id="footer">
 				<div style={{textAlign: 'center'}}>
-					<h2>Let's work together...</h2>
+					<h2>GET IN TOUCH!</h2>
 					<p>
-						How do you take your coffee?
-						<a href="mailto:mrkelechichinaka@gmail.com">Email Me!</a>
+						You can always send me an<a href="mailto:mrkelechichinaka@gmail.com">Email</a>
 					</p>
 				</div>
 			</footer>

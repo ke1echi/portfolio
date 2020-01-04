@@ -333,11 +333,11 @@ li.active {
 .App #projects #footer a {
   margin-left: 10px;
   text-decoration: none;
-  color: #799fb1;
+  color: #379ad6;
 }
 
 .App #projects #footer a:hover {
-  color: #07d4e0fa;
+  color: #fec519;
 }
 
 
