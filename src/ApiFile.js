@@ -9,7 +9,7 @@ let project = [
     demo_url: "https://ke1echi-anonymous-message-board-2.glitch.me/",
     type: "fullstack",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"/Image/portImg.PNG"
+    img_url:"Image/portImg.PNG"
   },
   {
     skills: ["html5", "css3", "React"],
