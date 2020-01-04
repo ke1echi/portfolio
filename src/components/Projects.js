@@ -29,7 +29,7 @@ const EachProject = (props) => {
 	return (
 		<div className="contents" style={{ backgroundColor:props.backgr }}>
 			<div className="each-project">
-				<a target="_blank" rel="noopener noreferrer" href={props.project.demo_url} className="project-img">
+				<a href="/#" className="project-img">
 					{ Skills }
 					<img src={props.project.img_url} alt="" />
 				</a>
@@ -56,26 +56,6 @@ const Projects = (props) => {
 			<header>
 				<div className='contacts'>
 					<button id="all" className="active example_d" onClick={props.control}>Projects</button>
-					{/* <button id="frontend" onClick={props.control} style={navbarButton}>FrontEnd</button>
-					<button id="frontend" onClick={props.control} style={navbarButton}>FullStack</button> */}
-					{/* <a href="mailto:ebusameric@gmail.com" className="icons">
-						<i className="fa fa-envelope-square"></i>
-						<span>Email</span>
-					</a>
-					<a target="_blank" rel="noopener noreferrer" href="https://github.com/sammychris" className="icons">
-						<i className="fa fa-github"></i>
-						<span>Github</span>
-					</a>
-					<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sammychrise" className="icons">
-						<i className="fa fa-twitter"></i>
-						<span>Twitter</span>
-					</a> */}
-				{ 	// eslint-disable-next-line
-					// <a target="_blank" rel="noopener noreferrer" href="#" className="icons">
-					// 	<i className="fa fa-linkedin"></i>
-					// 	<span>LinkedIn</span>
-					// </a>
-				}
 				</div>
 			</header>
 			<main>
