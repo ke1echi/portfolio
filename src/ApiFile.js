@@ -9,7 +9,7 @@ let project = [
     demo_url: "https://ke1echi-anonymous-message-board-2.glitch.me/",
     type: "fullstack",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"Image/portImg.PNG"
+    img_url:"Image/boardPage.PNG"
   },
   {
     skills: ["html5", "css3", "React"],
@@ -19,7 +19,7 @@ let project = [
     demo_url: "https://codepen.io/kelechichinaka/full/NmdRLb",
     type: "frontend",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"Image/linkedin.jpg"
+    img_url:"Image/pomodoroClockPage.PNG"
   },
   {
     skills: ["html5", "css3", "d3", "javascript"],
@@ -29,7 +29,7 @@ let project = [
     demo_url: "https://codepen.io/kelechichinaka/full/mdymzRP",
     type: "frontend",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"Image/Desert.jpg"
+    img_url:"Image/barChartPage.jpg"
   },
   {
     skills: ["html5", "css3", "mongodb", "express", "Node.js"],
