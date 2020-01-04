@@ -6,37 +6,21 @@ const stacks = (stac) => {
 		html5: { name: 'HTML5', background: '#ca2b03' },
 		javascript: { name: 'JavaScript', background: '#cea11a' },
 		d3: { name: 'D3', background: '#f5824c' },
-		jquery: { name: 'jQuery', background: '#172c45' },
 		sass: { name: 'Sass', background: '#b55f8c' },
-		express: { name: 'Expressjs', background: '#888585' },
+		express: { name: 'Express.js', background: '#888585' },
 		mongodb: { name: 'MongoDB', background: '#4aad3a' },
-		boostrap: { name: 'Bootstrap', background: '#5f3f88' },
 		css3: { name: 'CSS3', background: '#379ad6' }
 	}[stac];
 	return colors? colors: { name: stac, background: '#284748' };
 }
 
-let navbarButton = {
-	display: "flex",
-	justifyContent: "center",
-	alignItems: "center",
-	width: "40%",
-	height: "40px",
-	maxWidth: "180px",
-	fontSize: "16px",
-	textDecoration: "none",
-	background: "#25b2ba1a",
-	color: "#ffffff",
-	borderRadius: "2px",
-	margin: "5px"
-}
 const EachProject = (props) => {
 	let Descript;
 	let dateStr;
 	let descripArr = props.project.description;
 	let Skills;
 
-	if(descripArr) {
+	if (descripArr) {
 		Descript = descripArr.split('.').map( a => <p>{a}.</p>);
 		dateStr = new Date(props.project.create_on).toDateString();
 
@@ -71,9 +55,9 @@ const Projects = (props) => {
 		<div id='projects' ref={props.scroll}>
 			<header>
 				<div className='contacts'>
-					<button id="all" className="active" onClick={props.control} style={navbarButton}>Projects</button>
-					<button id="frontend" onClick={props.control} style={navbarButton}>FrontEnd</button>
-					<button id="frontend" onClick={props.control} style={navbarButton}>FullStack</button>
+					<button id="all" className="active example_d" onClick={props.control}>Projects</button>
+					{/* <button id="frontend" onClick={props.control} style={navbarButton}>FrontEnd</button>
+					<button id="frontend" onClick={props.control} style={navbarButton}>FullStack</button> */}
 					{/* <a href="mailto:ebusameric@gmail.com" className="icons">
 						<i className="fa fa-envelope-square"></i>
 						<span>Email</span>
@@ -118,7 +102,7 @@ const Projects = (props) => {
 					<h2>Let's work together...</h2>
 					<p>
 						How do you take your coffee?
-						<a href="mailto:ebusameric@gmail.com"> Email Me!</a>
+						<a href="mailto:mrkelechichinaka@gmail.com">Email Me!</a>
 					</p>
 				</div>
 			</footer>

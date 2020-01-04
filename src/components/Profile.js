@@ -5,25 +5,27 @@ const Profile = () => {
 		<div id='profile'>
 			<div id="minimize">
 				<header>
-					<h1>Hey, welcome</h1>
-					<p style={{marginTop:'5px'}}>a Web developer</p>
+					<h1>Kelechi Chinaka</h1>
+					<p style={{marginTop:'5px'}}>Software Engineer</p>
 				</header>
 				<main>
 					<div id="profilePic">
 						<img src="Image/Desert.jpg" alt=""/>
 					</div>
 					<div id="about">
-						<p>This is A developer who lives in Lagos, Nigeria. 
-						I code every day and I'm always looking for an opportunity to design as well.</p>
-						<p>Right now I'm immersed in MERN Stack and also love learning new things.</p>
+						<p>A software engineer with experience building web and mobile applications. I'm a constant learner who enjoys problem solving.</p>
+						<p>I enjoy building web applications using the MERN stack and iOS applications.</p>
 					</div>
 					<div id="skills">
-						<h3>My Skills:</h3>
+						<h3>Programming Languages:</h3>
 						<div id="skill">
-							<span style={{background: '#ca2b03'}}>HTML5</span>
-							<span style={{background: '#379ad6'}}>CSS3</span>
-							{/* <span style={{background: '#cea11a'}}>JavaScript</span>
-							<span style={{background: '#218e94'}}>React</span>
+							<span style={{background: '#cea11a'}}>JavaScript</span>
+							<span style={{background: '#f5824c'}}>Swift</span>
+							<span style={{background: '#5f3f88'}}>Python</span>
+							<span style={{background: '#172c45'}}>C</span>
+							<span style={{background: '#218e94'}}>Java</span>
+							{/* <span style={{background: '#cea11a'}}>Dart</span> */}
+							{/* <span style={{background: '#218e94'}}>React</span>
 							<span style={{background: '#f5824c'}}>D3</span>
 							<span style={{background: '#172c45'}}>jQuery</span>
 							<span style={{background: '#5f3f88'}}>Bootstrap</span>
@@ -33,24 +35,26 @@ const Profile = () => {
 							<span style={{background: '#f03c2e'}}>Git</span> */}
 						</div>
 					</div>
+					{/* <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/12lxOXrq--ik-huewpJ-bHGeVyqjL9c2EGuQJIIzuO9M/edit?usp=sharing"><button>Resume</button></a> */}
+					<div class="button_cont" align="center"><a class="example_d" href="https://docs.google.com/document/d/12lxOXrq--ik-huewpJ-bHGeVyqjL9c2EGuQJIIzuO9M/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></div>
 				</main>
 				<footer>
 					{/* <a href="mailto:ebusameric@gmail.com" className="icons">
 						<i className="fa fa-envelope-square"></i>
 						<span>Email</span>
 					</a>  */}
-					<a target="_blank" rel="noopener noreferrer" href="https://github.com/sammychris" className="icons">
+					<a target="_blank" rel="noopener noreferrer" href="https://github.com/ke1echi" className="icons">
 						<i className="fa fa-github"></i>
 						<span>Github</span>
 					</a>
-					<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sammychrise" className="icons">
+					<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ke1echi" className="icons">
 						<i className="fa fa-twitter"></i>
 						<span>Twitter</span>
 					</a>
 				{    // eslint-disable-next-line 
-					<a target="_blank" rel="noopener noreferrer" href="#" className="icons">
+					<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kelechi-chinaka-353861124/" className="icons">
 						<i className="fa fa-linkedin"></i>
-						<span>LinkedIn</span>
+						<span>Linkedin</span>
 					</a>
 				}
 				</footer>
