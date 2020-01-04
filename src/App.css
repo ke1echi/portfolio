@@ -267,7 +267,8 @@ li.active {
 }
 
 .App #projects main .each-project .project-info h1 .dates {
-  font-size: 12px;
+  font-size: 15px;
+  padding-right: -20px;
   color: #a48525;
   text-shadow: 0 0 20px black;
 }

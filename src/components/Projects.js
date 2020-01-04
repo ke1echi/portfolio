@@ -22,7 +22,7 @@ const EachProject = (props) => {
 
 	if (descripArr) {
 		Descript = descripArr.split('.').map( a => <p>{a}.</p>);
-		dateStr = new Date(props.project.create_on).toDateString();
+		dateStr = props.project.create_on;
 
 		Skills = props.project.skills.map((a, i) => <span style={{background: stacks(a).background, top: i * 30}}>{stacks(a).name}</span>)
 	}
@@ -71,7 +71,7 @@ const Projects = (props) => {
 				</div>
 				<div id="all-project" className="first">
 						{	props.project.map((ele, i) => {
-								if(i % 2 === 0)return <EachProject project={ele} backgr={'rgb(43, 43, 43)'} key={i} />;
+								if(i % 2 === 0) return <EachProject project={ele} backgr={'rgb(43, 43, 43)'} key={i} />;
 								return <EachProject project={ ele } index={i} key={i} /> 
 							}) 
 						}
