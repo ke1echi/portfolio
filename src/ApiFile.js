@@ -69,7 +69,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/gObGwpe",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/testing.JPG"
+      img_url:"/Image/testing.jpg"
     },
     {
       skills: ["d3", "sass", "javascript"],
