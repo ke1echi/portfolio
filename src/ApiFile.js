@@ -19,7 +19,7 @@ let project = [
     demo_url: "https://codepen.io/kelechichinaka/full/NmdRLb",
     type: "frontend",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"/Image/pomodoroClockPage.PNG"
+    img_url:"Image/pomodoroClockPage.PNG"
   },
   {
     skills: ["html5", "css3", "d3", "javascript"],
@@ -39,7 +39,7 @@ let project = [
     demo_url: "https://ke1echi-personal-library.glitch.me/",
     type: "fullstack",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"/Image/libraryPage.PNG"
+    img_url:"Image/libraryPage.PNG"
   },
   {
     skills: ["html5", "css3", "React"],
@@ -49,7 +49,7 @@ let project = [
     demo_url: "https://codepen.io/kelechichinaka/full/OqKejG",
     type: "frontend",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"/Image/drumMachinePage.PNG"
+    img_url:"Image/drumMachinePage.PNG"
   },
     {
       skills: ["html5", "css3", "mongodb", "express", "Node.js"],
@@ -59,7 +59,7 @@ let project = [
       demo_url: "https://ke1echi-issue-tracker-fcc-1.glitch.me/",
       type: "fullstack",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/issueTrackerPage.PNG"
+      img_url:"Image/issueTrackerPage.PNG"
     },
     {
       skills: ["html5", "css3", "d3", "javascript"],
@@ -69,7 +69,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/gObGwpe",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/testing.jpg"
+      img_url:"Image/ChoroplethMapPage.PNG"
     },
     {
       skills: ["d3", "sass", "javascript"],
@@ -79,7 +79,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/xxbXEbV",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/heatmapPage.PNG"
+      img_url:"Image/heatmapPage.PNG"
     },
     {
       skills: ["html5", "css3", "React"],
@@ -89,7 +89,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/qwZZmP",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/calculatorPage.PNG"
+      img_url:"Image/calculatorPage.PNG"
     },
     {
       skills: ["html5", "css3", "React"],
@@ -99,7 +99,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/aPgZBX",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/markdownPreviewerPage.PNG"
+      img_url:"Image/markdownPreviewerPage.PNG"
     },
     {
       skills: ["html5", "css3", "d3", "javascript"],
@@ -109,7 +109,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/qBEPaOq",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/treemapPage.PNG"
+      img_url:"Image/treemapPage.PNG"
     },
     {
       skills: ["html5", "css3", "express", "Node.js"],
@@ -119,7 +119,7 @@ let project = [
       demo_url: "https://ke1echi-stock-price-checker.glitch.me/",
       type: "fullstack",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/stockPricePage.PNG"
+      img_url:"Image/stockPricePage.PNG"
     },
     {
       skills: ["html5", "css3", "React"],
@@ -129,7 +129,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/QdjwEY",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/quoteMachinePage.PNG"
+      img_url:"Image/quoteMachinePage.PNG"
     },
     {
       skills: ["d3", "sass", "javascript"],
@@ -139,7 +139,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/QWwMNdp",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/scatterPlotPage.PNG"
+      img_url:"Image/scatterPlotPage.PNG"
     },
     {
       skills: ["html5", "css3"],
@@ -149,7 +149,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/GPNbGG",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/documentationPage.PNG"
+      img_url:"Image/documentationPage.PNG"
     },
     {
       skills: ["html5", "css3"],
@@ -159,7 +159,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/MbGLew",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/tributePageImage.PNG"
+      img_url:"Image/tributePageImage.PNG"
     },
 ];
 
