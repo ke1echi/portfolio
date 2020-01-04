@@ -29,7 +29,7 @@ let project = [
     demo_url: "https://codepen.io/kelechichinaka/full/mdymzRP",
     type: "frontend",
     create_on: "2019-08-04T14:41:35.932Z",
-    img_url:"/Image/barChartPage.PNG"
+    img_url:"Image/Desert.jpg"
   },
   {
     skills: ["html5", "css3", "mongodb", "express", "Node.js"],
@@ -69,7 +69,7 @@ let project = [
       demo_url: "https://codepen.io/kelechichinaka/full/gObGwpe",
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/ChoroplethMapPage.PNG"
+      img_url:"/Image/testing.JPG"
     },
     {
       skills: ["d3", "sass", "javascript"],
@@ -130,16 +130,6 @@ let project = [
       type: "frontend",
       create_on: "2019-08-04T14:41:35.932Z",
       img_url:"/Image/quoteMachinePage.PNG"
-    },
-    {
-      skills: ["html5", "css3", "express", "Node.js"],
-      name: "Converter",
-      description: `A converter application. This app is used to convert between different units, eg km - mi and vice versa.`,
-      code_url: "https://github.com/ke1echi/information-security-and-quality-assurance-projects-repo/tree/master/metric-imperial-converter-app",
-      demo_url: "https://ke1echi-metric-app-1.glitch.me/",
-      type: "fullstack",
-      create_on: "2019-08-04T14:41:35.932Z",
-      img_url:"/Image/converterPage.PNG"
     },
     {
       skills: ["d3", "sass", "javascript"],
