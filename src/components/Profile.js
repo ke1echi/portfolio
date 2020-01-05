@@ -24,22 +24,13 @@ const Profile = () => {
 							<span style={{background: '#5f3f88'}}>Python</span>
 							<span style={{background: '#172c45'}}>C</span>
 							<span style={{background: '#218e94'}}>Java</span>
-							{/* <span style={{background: '#cea11a'}}>Dart</span> */}
-							{/* <span style={{background: '#218e94'}}>React</span>
-							<span style={{background: '#f5824c'}}>D3</span>
-							<span style={{background: '#172c45'}}>jQuery</span>
-							<span style={{background: '#5f3f88'}}>Bootstrap</span>
-							<span style={{background: '#b55f8c'}}>Sass</span>
-							<span style={{background: '#7649bb'}}>Redux</span>
-							<span style={{background: '#76ac64'}}>Node</span>
-							<span style={{background: '#f03c2e'}}>Git</span> */}
 						</div>
 					</div>
 					{/* <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/12lxOXrq--ik-huewpJ-bHGeVyqjL9c2EGuQJIIzuO9M/edit?usp=sharing"><button>Resume</button></a> */}
 					<div class="button_cont" align="center"><a class="example_d" href="https://docs.google.com/document/d/12lxOXrq--ik-huewpJ-bHGeVyqjL9c2EGuQJIIzuO9M/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></div>
 				</main>
 				<footer>
-					{/* <a href="mailto:ebusameric@gmail.com" className="icons">
+					{/* <a href="mailto:kc@gmail.com" className="icons">
 						<i className="fa fa-envelope-square"></i>
 						<span>Email</span>
 					</a>  */}
