@@ -39,8 +39,8 @@ h1 {
 
 
 .App #profile #minimize main #profilePic {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .App #profile main #profilePic img {
