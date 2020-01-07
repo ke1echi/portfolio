@@ -10,7 +10,7 @@ const Profile = () => {
 				</header>
 				<main>
 					<div id="profilePic">
-						<img src="Image/testing.jpg" alt=""/>
+						<img src="Image/ProfilePic.jpg" alt=""/>
 					</div>
 					<div id="about">
 						<p>A software engineer with experience building web and mobile applications. I'm a constant learner who enjoys problem solving.</p>
